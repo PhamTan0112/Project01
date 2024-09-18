@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+  <diagram name="Trang-1" id="TdmURNUMf5xqSunLQrmT">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-1" value="Front - End" style="swimlane;startSize=0;verticalAlign=bottom;fontSize=50;align=left;horizontal=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="160" width="1670" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-5" value="homepage / user-home-page" style="swimlane;startSize=0;verticalAlign=bottom;align=left;fontColor=#d70f0f;strokeWidth=4;fontSize=15;textShadow=0;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-1">
+          <mxGeometry x="30" y="40" width="520" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-7" value="Header" style="swimlane;startSize=0;verticalAlign=bottom;align=left;strokeWidth=2;dashed=1;dashPattern=1 1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-5">
+          <mxGeometry x="40" y="40" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-6" value="Logo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#c35050;fontStyle=1;labelBackgroundColor=none;fontSize=16;labelBorderColor=none;textShadow=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-7">
+          <mxGeometry x="10" y="20" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-8" value="Sign in" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-7">
+          <mxGeometry x="370" y="20" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-9" value="Sign up" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-7">
+          <mxGeometry x="370" y="60" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-10" value="Navigation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-7">
+          <mxGeometry x="130" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-11" value="Body" style="swimlane;startSize=0;verticalAlign=bottom;align=left;strokeWidth=2;dashed=1;dashPattern=1 1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-5">
+          <mxGeometry x="40" y="220" width="440" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-12" value="Find Flight" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="40" y="40" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-13" value="Wheather Map Get From API" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="250" y="40" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-14" value="Sales make slide effect" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fontStyle=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="40" y="180" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-15" value="Recommend some place best-seller" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="40" y="400" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-16" value="Some airline partners" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="40" y="290" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-17" value="Some payment partners" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-11">
+          <mxGeometry x="220" y="290" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-18" value="Footer" style="swimlane;startSize=0;verticalAlign=bottom;align=left;strokeWidth=2;dashed=1;dashPattern=1 1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-5">
+          <mxGeometry x="40" y="800" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-19" value="Logo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontSize=14;fontStyle=1;fontColor=#c72b0f;textShadow=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-18">
+          <mxGeometry x="20" y="25" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;about&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-18">
+          <mxGeometry x="140" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-21" value="Contact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-18">
+          <mxGeometry x="240" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-22" value="Follow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-18">
+          <mxGeometry x="340" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-23" value="Sign in" style="swimlane;startSize=0;verticalAlign=bottom;align=left;fontSize=14;strokeWidth=4;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-1">
+          <mxGeometry x="590" y="40" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-24" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-23">
+          <mxGeometry x="25" y="20" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-25" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Password&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-23">
+          <mxGeometry x="25" y="90" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-27" value="Sign up" style="swimlane;startSize=0;verticalAlign=bottom;align=left;fontSize=14;strokeWidth=4;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-1">
+          <mxGeometry x="860" y="40" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-28" value="Follows Table User from database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-27">
+          <mxGeometry x="45" y="40" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-29" value="Find Flight" style="swimlane;startSize=0;verticalAlign=bottom;fontSize=15;align=left;strokeWidth=4;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-1">
+          <mxGeometry x="590" y="240" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-30" value="From" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-31" value=".To" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="230" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TF8TKJUU_UVwRTmm8Ruv-32" value="Icon" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=-1;hachureGap=8;fillStyle=cross-hatch;fillColor=#006600;sketch=1;fontColor=#c22e2e;fontStyle=1;verticalAlign=bottom;align=center;horizontal=1;labelBorderColor=none;labelBackgroundColor=default;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="170" y="60" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-1" value="Date Fly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-2" value="Round Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="230" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-3" value="Book Tickets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-29">
+          <mxGeometry x="370" y="40" width="100" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-4" value="Admin-page / user-page" style="swimlane;startSize=0;horizontal=1;align=left;verticalAlign=bottom;fontColor=#d70f0f;whiteSpace=wrap;strokeWidth=4;" vertex="1" parent="TF8TKJUU_UVwRTmm8Ruv-1">
+          <mxGeometry x="590" y="470" width="480" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-5" value="Navigation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-4">
+          <mxGeometry x="10" y="90" width="90" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-6" value="Logo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-4">
+          <mxGeometry x="20" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-7" value="Log-out" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-4">
+          <mxGeometry x="350" y="10" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-8" value="Custom Zone(Admin) / Book Tickets(User)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=11;fontSize=29;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-4">
+          <mxGeometry x="120" y="90" width="340" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-9" value="Tickets-page" style="swimlane;startSize=0;verticalAlign=bottom;fontSize=13;fontColor=#e01515;align=left;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="840" y="200" width="520" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-10" value="Header" style="swimlane;startSize=0;verticalAlign=bottom;align=left;strokeWidth=2;dashed=1;dashPattern=1 1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-9">
+          <mxGeometry x="40" y="40" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-11" value="Logo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontColor=#c35050;fontStyle=1;labelBackgroundColor=none;fontSize=16;labelBorderColor=none;textShadow=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-10">
+          <mxGeometry x="10" y="20" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-12" value="Sign in" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-10">
+          <mxGeometry x="370" y="20" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-13" value="Sign up" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-10">
+          <mxGeometry x="370" y="60" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-14" value="Navigation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-10">
+          <mxGeometry x="130" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-15" value="Filter-navigation" style="swimlane;startSize=0;dashed=1;dashPattern=1 1;strokeWidth=2;verticalAlign=bottom;fontSize=13;align=left;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-9">
+          <mxGeometry x="40" y="200" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-16" value="Up Sales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-15">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-17" value="Filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-15">
+          <mxGeometry x="20" y="200" width="120" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-20" value="Your Detail Fly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-15">
+          <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-18" value="Tickets-navigation" style="swimlane;startSize=0;verticalAlign=bottom;align=left;fontSize=13;strokeWidth=2;dashed=1;dashPattern=1 1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-9">
+          <mxGeometry x="220" y="200" width="260" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-19" value="Infomation-Fly" style="swimlane;startSize=0;verticalAlign=bottom;fontSize=13;align=left;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-18">
+          <mxGeometry x="31" y="40" width="199" height="120" as="geometry">
+            <mxRectangle x="50" y="390" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-21" value="Find Fly Infomation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-19">
+          <mxGeometry x="19" y="20" width="171" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-23" value="Calender" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-19">
+          <mxGeometry x="19" y="60" width="171" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DINr9IAUM4Dgkuqsb158-22" value="List FLight" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DINr9IAUM4Dgkuqsb158-18">
+          <mxGeometry x="31" y="190" width="199" height="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
