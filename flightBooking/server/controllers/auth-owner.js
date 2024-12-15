@@ -113,11 +113,11 @@ exports.requireSuperadminSignin = async (req, res, next) => {
 
 exports.isPoster = (req, res, next) => {
   let sameUser =
-    req.bus &&
+    req.flight &&
     req.ownerauth &&
-    req.bus.owner._id.toString() === req.ownerauth._id.toString();
+    req.flight.owner._id.toString() === req.ownerauth._id.toString();
   let adminUser =
-    req.bus && req.ownerauth && req.ownerauth.role === "superadmin";
+    req.flight && req.ownerauth && req.ownerauth.role === "superadmin";
 
   let isPoster = sameUser || adminUser;
 
