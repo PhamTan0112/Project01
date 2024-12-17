@@ -4,11 +4,11 @@ const Guest = require("../models/Guest");
 const _ = require("lodash");
 
 exports.bookingById = async (req, res, next, id) => {
-  const booking = await Booking.findById(id).populate("Flight owner guest user");
+  const booking = await Booking.findById(id).populate("flight owner guest user");
 
   if (!booking) {
     return res.status(400).json({
-      error: "Booking not found"
+      error: "booking not found"
     });
   }
   req.booking = booking; // adds booking object in req with booking info
@@ -16,14 +16,14 @@ exports.bookingById = async (req, res, next, id) => {
 };
 
 exports.getAllBookings = async (req, res) => {
-  const bookings = await Booking.find({}).populate("Flight owner guest user self");
+  const bookings = await Booking.find({}).populate("flight owner guest user self");
 
   res.json(bookings);
 };
 
 exports.getOwnerBookings = async (req, res) => {
   const bookings = await Booking.find({ owner: req.ownerauth }).populate(
-    "Flight owner guest user self"
+    "flight owner guest user self"
   );
 
   res.json(bookings);
@@ -82,7 +82,7 @@ exports.postSold = async (req, res) => {
   const booking = new Booking(req.body);
   booking.self = req.ownerauth;
 
-  const flight = await flight.findOne({ slug: req.flight.slug });
+  const flight = await Flight.findOne({ slug: req.flight.slug });
 
   if (
     flight.seatsAvailable < booking.passengers ||
