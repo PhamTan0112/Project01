@@ -31,6 +31,7 @@ const Login = () => {
     const data = await signIn({ email, password }).catch(err => {
       setState({ ...state, error: err.response.data.error });
     })
+    console.log("data login: ", data);  // Xem dữ liệu trả về từ signIn
 
     if (data && data.status === 200) {
       authenticate(data, () => {

@@ -1,3 +1,4 @@
+  
 import axios from "axios";
 import {API} from "./config"
 
@@ -8,6 +9,7 @@ const setAuthToken = token => {
     delete axios.defaults.headers.common["Authorization"];
   }
    axios.defaults.baseURL = API;
+   console.log("test api:" , API);
 };
 
 export default setAuthToken;

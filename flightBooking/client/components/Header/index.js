@@ -3,11 +3,9 @@ import Link from "next/link";
 import Router from "next/router";
 import NProgress from "nprogress";
 import "./nprogress.css";
-
 import { Layout, Menu } from "antd";
 
 const { Header } = Layout;
-
 
 Router.onRouteChangeStart = url => NProgress.start();
 Router.onRouteChangeComplete = url => NProgress.done();
@@ -29,9 +27,9 @@ const Nav = () => (
           </Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link href="/test">
-            <a>Test</a>
-          </Link>
+        <Link href="/login">
+          <a>Login</a>
+        </Link>
         </Menu.Item>
       </Menu>
     </Header>

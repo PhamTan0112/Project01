@@ -1,2 +1,9 @@
 export const API = 'http://localhost:8525/api';
 export const API_ROOT = 'http://localhost:8525';
+// export const API = process.env.REACT_APP_API_URL;
+export const JWT_SECRET = process.env.REACT_APP_JWT_SECRET;
+export const SERVER_ROUTE = process.env.REACT_APP_SERVER_ROUTE;
+export const API_URL = process.env.REACT_APP_API_URL;
+export const flightKey = 'sidebarFlightes';
+export const peopleKey = 'sidebarPeople';
+export const jwtKey = 'jwt';
